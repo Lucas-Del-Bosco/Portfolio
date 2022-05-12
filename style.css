@@ -45,6 +45,12 @@ header h2 {
 
 }
 
+.arrow a img {
+    display: block;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 @keyframes arrowTranslate {
     0% {
         transform: translateY(0);
