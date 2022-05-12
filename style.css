@@ -22,19 +22,13 @@ body {
     animation: backgroundTransition 8s ease-in-out infinite;
 }
 
-
-
 header h1 {
-    position: absolute;
-    top: 300px;
     font-size: 46px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
 header h2 {
-    position: absolute;
-    top: 370px;
     font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -42,8 +36,8 @@ header h2 {
 
 .arrow {
     display: flex;
-    position: absolute;
-    top: 780px;
+    justify-self: end;
+
 }
 .social-media {
     margin-top: 1rem;
