@@ -12,7 +12,7 @@ body {
 .header-wrapper {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(-45deg, #050404, #2e1c2b, #4a1942, #893168);
+    background: linear-gradient(-45deg, #111116, #26203a, #26194a, #3e3189);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -22,16 +22,29 @@ body {
     animation: backgroundTransition 8s ease-in-out infinite;
 }
 
-h1 {
+
+
+header h1 {
+    position: absolute;
+    top: 300px;
+    font-size: 46px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-h2 {
+header h2 {
+    position: absolute;
+    top: 370px;
+    font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
+.arrow {
+    display: flex;
+    position: absolute;
+    top: 780px;
+}
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -176,7 +189,7 @@ a:hover {
 
 #toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #2e1c2b;
+    background-color: #26203a;
     top: 48px;
 }
 
@@ -192,7 +205,7 @@ a:hover {
 #toggle:checked ~ .menu-itens {
     visibility: visible;
     opacity: 1;
-    color: #2e1c2b;
+    color: #26203a;
 
 }
 
@@ -299,7 +312,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2e1c2b;
+    background-color: #26194a;
 }
 
 /* RESPONSIVO */
