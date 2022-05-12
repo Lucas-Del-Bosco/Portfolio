@@ -38,8 +38,22 @@ header h2 {
 
 .arrow {
     position: absolute;
-    top: 90vh;
+    top: 80vh;
+    transform: translateY(0);
+    animation: arrowTranslate 2s ease-in-out infinite;
 
+}
+
+@keyframes arrowTranslate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 .social-media {
     margin-top: 1rem;
