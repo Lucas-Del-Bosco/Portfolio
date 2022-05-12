@@ -23,6 +23,7 @@ body {
 }
 
 header h1 {
+    margin-top: -30px;
     font-size: 46px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -112,7 +113,7 @@ a:hover {
 }
 
 .checkbox .trace {
-    width: 50px;
+    width: 40px;
     height: 2px;
     background-color: white;
     position: absolute;
@@ -121,17 +122,17 @@ a:hover {
 }
 
 .checkbox .trace:nth-child(1) {
-    top: 26px;
+    top: 25px;
     transform: rotate(0);
 }
 
 .checkbox .trace:nth-child(2) {
-    top: 46px;
+    top: 38px;
     transform: rotate(0);
 }
 
 .checkbox .trace:nth-child(3) {
-    top: 66px;
+    top: 51px;
     transform: rotate(0);
 }
 
