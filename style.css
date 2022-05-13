@@ -264,6 +264,12 @@ a:hover {
     border-radius: 10px;
 }
 
+#projeto-1 {
+    background-image: url('imagens/Projeto\ 1.jpg');
+    color: rgb(194, 92, 253);
+    font-weight: bold;
+}
+
 .card-text {
     width: 40%;
     font-family: sans-serif;
@@ -321,7 +327,7 @@ a:hover {
 .card:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 /* FOOTER */
@@ -339,7 +345,6 @@ a:hover {
 
 @media (max-width: 800px) {
     .social-media {
-        display: ;
         flex-direction: column;
     }
 
